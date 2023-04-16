@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body
+{
+    background-color: #000;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 12px;
+    padding: 12px;
+}
+
+  * 
+  {
+    scrollbar-width: auto;
+    scrollbar-color: #7a7a7a #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar 
+  {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track 
+  {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb 
+  {
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
+
+@media screen and (min-width: 601px) {
+    body 
+    {
+      font-size: 16px;
+    }
+    .sahaj
+    {
+        font-size: 16px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    .sahaj
+    {
+        font-size: 9px;
+    }
+  }
+.sahaj
+{
+    display: inline-flex;
+}
+.aka
+{
+    display: inline-flex;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+.home
+{
+    color: #ff0000;
+}
+.home:hover
+{
+    color: #11ff00;
+}
+.about
+{
+    color: #00ddff;
+}
+.about:hover
+{
+    color: #11ff00;
+}
+.projects
+{
+    color: #ffff00;
+}
+.projects:hover
+{
+    color: #11ff00;
+}
+.contact
+{
+    color: #ff00ff;
+}
+.contact:hover
+{
+    color: #11ff00;
+}
+.info
+{
+    color: #ff7700;
+}
+.info:hover
+{
+    color: #11ff00;
+}
+.bash
+{
+    color: #00aeff;
+}
+.curve
+{
+    color: #11ff88;
+}
+.green
+{
+    color: #11ff00;
+}
+.zyfink
+{
+    color: red;
+}
+#zy:hover
+{
+    color: #11ff00;
+}
+.grey
+{
+    color: #9c9c9c;
+}
+.git:hover
+{
+    color: #11ff00;
+}
+.yellow
+{
+    color: #ffff00;
+}
+.onlyhover:hover
+{
+    color: #11ff00;
+}
